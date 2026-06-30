@@ -161,6 +161,7 @@ Use **three terminals**: simulation, training, monitoring.
 **Terminal 1 — Simulation**
 ```bash
 docker exec -it exo_project bash
+
 source /opt/ros/noetic/setup.sh
 cd /root/monoped_ws
 source devel_isolated/setup.sh
@@ -168,8 +169,10 @@ roslaunch my_legged_robots_sims main.launch
 ```
 
 **Terminal 2 — Training**
+### Standing Task (SAC)
 ```bash
 docker exec -it exo_project bash
+
 source /opt/ros/noetic/setup.sh
 cd /root/monoped_ws
 source devel_isolated/setup.sh
@@ -180,6 +183,7 @@ python3 start_training_v3.py
 ### Hopping Task (SAC)
 ```bash
 docker exec -it exo_project bash
+
 source /opt/ros/noetic/setup.sh
 cd /root/monoped_ws
 source devel_isolated/setup.sh
@@ -190,6 +194,7 @@ python3 start_training_hop.py
 ### Hopping Task (D4PG)
 ```bash
 docker exec -it exo_project bash
+
 source /opt/ros/noetic/setup.sh
 cd /root/monoped_ws
 source devel_isolated/setup.sh
@@ -212,6 +217,7 @@ tensorboard --logdir=tensorboard --bind_all
 **SAC — Standing model:**
 ```bash
 docker exec -it exo_project bash
+
 source /opt/ros/noetic/setup.sh
 cd /root/monoped_ws
 source devel_isolated/setup.sh
@@ -221,12 +227,19 @@ python3 resume_training_stand.py /root/monoped_ws/src/model/monoped_run_yyyymmdd
 
 **SAC — Hopping model:**
 ```bash
+docker exec -it exo_project bash
+
+source /opt/ros/noetic/setup.sh
+cd /root/monoped_ws
+source devel_isolated/setup.sh
+cd src/my_hopper_training_sac/sr
 python3 resume_training_hop.py /root/monoped_ws/src/model/hop_run_yyyymmdd_xxxxxx/checkpoints/hop_checkpoint_80000_steps
 ```
 
 **D4PG model:**
 ```bash
 docker exec -it exo_project bash
+
 source /opt/ros/noetic/setup.sh
 cd /root/monoped_ws
 source devel_isolated/setup.sh
@@ -241,6 +254,7 @@ python3 resume_training_d4pg.py /root/monoped_ws/src/model/d4pg_hop_run_20260626
 **D4PG model:**
 ```bash
 docker exec -it exo_project bash
+
 source /opt/ros/noetic/setup.sh
 cd /root/monoped_ws
 source devel_isolated/setup.sh
@@ -252,6 +266,11 @@ python3 test_model_d4pg.py /root/monoped_ws/src/model/d4pg_hop_run_20260626_1105
 
 **SAC — hopping model:**
 ```bash
+docker exec -it exo_project bash
+
+source /opt/ros/noetic/setup.sh
+cd /root/monoped_ws
+source devel_isolated/setup.sh
 rosparam load /root/monoped_ws/src/my_hopper_training_sac/config/learn_params_hop.yaml
 rosparam list | grep desired_pose
 cd src/my_hopper_training_sac/src
@@ -260,6 +279,11 @@ python3 test_model_visual.py /root/monoped_ws/src/model/hop_run_20260622_214013/
 
 **SAC — standing model:**
 ```bash
+docker exec -it exo_project bash
+
+source /opt/ros/noetic/setup.sh
+cd /root/monoped_ws
+source devel_isolated/setup.sh
 rosparam load /root/monoped_ws/src/my_hopper_training_sac/config/learn_params.yaml
 rosparam list | grep desired_pose
 cd src/my_hopper_training_sac/src
