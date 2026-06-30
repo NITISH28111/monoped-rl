@@ -8,7 +8,9 @@ Reinforcement learning environment for a monoped (single-leg) robot, used as a s
 ## Stage Reports
 
 - [Stage 1 — SAC-based Stand-to-Hop Behavior](https://drive.google.com/file/d/1AJsA8Q4E6KEF0KUUr-R-cjTsUr2YKSRu/view?usp=drive_link)
+- [Video — Final Learned Hop-Forward Behaviour (SAC)](https://drive.google.com/file/d/1jwC9OvLmgHromVb21_jBDx8Qq8wIT83W/view?usp=drive_link)
 - [Stage 2 — Migrate SAC to D4PG for Monoped Jump Training](https://drive.google.com/file/d/15UWTyn6OU6NZsjq5Y8usxjWhJACrBAdW/view?usp=drive_link)
+- [Video — Final Learned Hop-Forward Behaviour (D4PG)](https://drive.google.com/file/d/1EyOXKorgwW4MrJAw7e3Ef3F7ri6VjooC/view?usp=drive_link)
 ---
 
 ## Table of Contents
