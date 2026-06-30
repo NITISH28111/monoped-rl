@@ -5,8 +5,10 @@ Reinforcement learning with SAC and D4PG for monopod robot hopping, balance, and
 
 Reinforcement learning environment for a monoped (single-leg) robot, used as a sim-to-real testbed for exoskeleton control research. Built on **ROS Noetic + Gazebo**, containerized with Docker, trained with **SAC** and **D4PG**.
 
-**Dev machine:** HP Victus 16 | AMD Ryzen 7 7840HS | RTX 3050 6GB | 16GB RAM | Windows 11
+## Stage Reports
 
+- [Stage 1 — SAC-based Stand-to-Hop Behavior](https://drive.google.com/file/d/1AJsA8Q4E6KEF0KUUr-R-cjTsUr2YKSRu/view?usp=drive_link)
+- [Stage 2 — Migrate SAC to D4PG for Monoped Jump Training](https://drive.google.com/file/d/15UWTyn6OU6NZsjq5Y8usxjWhJACrBAdW/view?usp=drive_link)
 ---
 
 ## Table of Contents
