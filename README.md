@@ -13,6 +13,12 @@ Reinforcement learning environment for a monoped (single-leg) robot, used as a s
 - [Video — Final Learned Hop-Forward Behaviour (D4PG)](https://drive.google.com/file/d/1EyOXKorgwW4MrJAw7e3Ef3F7ri6VjooC/view?usp=drive_link)
 ---
 
+## Trained Module
+
+- [Trained Module — SAC](https://drive.google.com/file/d/141J84Sdg-uDjn7SIaQ-bIJDYEydl_Of0/view?usp=drive_link)
+- [Trained Module — D4PG](https://drive.google.com/file/d/1-kdXxtj4bvF3R-Cu0KvDJqYzksrgS3Sq/view?usp=drive_link)
+---
+
 ## Table of Contents
 
 - [One-Time Setup](#one-time-setup)
