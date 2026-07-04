@@ -1,6 +1,11 @@
 # monoped-rl
 Reinforcement learning with SAC and D4PG for monopod robot hopping, balance, and forward movement in ROS/Gazebo.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NITISH28111/monoped-rl/main/Images/Monoped-1.jpeg" width="48%">
+  <img src="https://raw.githubusercontent.com/NITISH28111/monoped-rl/main/Images/Monoped.png" width="48%">
+</p>
+
 # Monoped RL — AI-Driven Rehabilitation Exoskeleton
 
 Reinforcement learning environment for a monoped (single-leg) robot, used as a sim-to-real testbed for exoskeleton control research. Built on **ROS Noetic + Gazebo**, containerized with Docker, trained with **SAC** and **D4PG**.
