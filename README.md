@@ -2,8 +2,7 @@
 Reinforcement learning with SAC and D4PG for monopod robot hopping, balance, and forward movement in ROS/Gazebo.
 
 <p align="center">
-  <img src="./Images/Monoped-1.jpeg" alt="Monoped Robot" width="600"><br><br>
-  <img src="./Images/Monoped.png" alt="Monoped Simulation" width="600">
+  <img src="./Images/Monoped.png" alt="Monoped Simulation" width="200" height="300">
 </p>
 
 # Monoped RL — AI-Driven Rehabilitation Exoskeleton
@@ -416,3 +415,7 @@ docker stop exo_project
 **VS Code — connect to container:** Remote Explorer → Other Containers → `ntklab/monoped_rl` → click → → `Ctrl+K Ctrl+O` → `/root/monoped_ws/src/my_hopper_training/src`
 
 **VS Code — disconnect:** `Ctrl+Shift+P` → `Remote: Close Remote Connection`
+
+<p align="center">
+  <img src="./Images/Monoped-1.jpeg" alt="Monoped Robot" width="400" height="200"><br>
+</p>
