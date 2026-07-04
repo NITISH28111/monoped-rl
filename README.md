@@ -2,8 +2,8 @@
 Reinforcement learning with SAC and D4PG for monopod robot hopping, balance, and forward movement in ROS/Gazebo.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NITISH28111/monoped-rl/main/Images/Monoped-1.jpeg" width="48%">
-  <img src="https://raw.githubusercontent.com/NITISH28111/monoped-rl/main/Images/Monoped.png" width="48%">
+  <img src="./Images/Monoped-1.jpeg" alt="Monoped Robot" width="600"><br><br>
+  <img src="./Images/Monoped.png" alt="Monoped Simulation" width="600">
 </p>
 
 # Monoped RL — AI-Driven Rehabilitation Exoskeleton
